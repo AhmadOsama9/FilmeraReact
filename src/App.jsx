@@ -4,13 +4,6 @@ import MovieCard from './MovieCard';
 
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=c80d123f';
-const movie1 = {
-    "Title" : "Amazing Spiderman Syndrome",
-    "Year" : "2012",
-    "imdbID" : "tt2586634",
-    "Type" : "movie",
-    "Poster" : "N/A"
-}
 
 const App = () => {
 
@@ -35,7 +28,7 @@ const App = () => {
 
     return(
         <div className="app">
-            <h1>App</h1>
+            <h1>Filmera</h1>
 
 
             <div className="search">
